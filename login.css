@@ -1,0 +1,47 @@
+html,
+body {
+  height: 100vh;
+}
+
+body {
+  padding: 30px;
+  background-image: url("bg.png");
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation-name: fade-in;
+          animation-name: fade-in;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: .5s;
+          animation-duration: .5s;
+}
+
+form {
+  padding-top: 10px;
+}
+
+#wc {
+  width: 300px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#card {
+  background-color: #ffff;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 40px 2px rgba(98, 203, 198, 0.3);
+          box-shadow: 0 0 40px 2px rgba(98, 203, 198, 0.3);
+  color: #00374b;
+}
+
+#btn-submit {
+  text-align: center;
+}
+/*# sourceMappingURL=login.css.map */
